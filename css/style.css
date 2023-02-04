@@ -1,0 +1,179 @@
+:root {
+  --color-default: #55545f;
+  --color-pink: #ea4c89;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+* {
+  z-index: 1;
+}
+
+/* Navbar */
+.navbar {
+  height: 74px;
+  z-index: 2;
+}
+.navbar img {
+  margin-left: 59px;
+}
+
+.navbar .nav-link {
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.navbar .nav-link.active {
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--color-default);
+}
+
+.navbar .button-masuk {
+  border: none;
+  background-color: transparent;
+  width: 130px;
+  height: 47px;
+}
+.navbar .button-daftar {
+  border: none;
+  background-color: transparent;
+  width: 130px;
+  height: 47px;
+  background-color: var(--color-pink);
+  color: #fff;
+  border-radius: 10px;
+}
+
+/* Section Pencarian */
+#pencarian {
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(../assets/hero-car.png);
+}
+
+#pencarian .overlay {
+  background-color: #000;
+  height: 100vh;
+  width: 100%;
+  background: rgb(0, 0, 0, 0.6);
+}
+
+#pencarian li {
+  list-style: none;
+  width: 164px;
+  height: 64px;
+  margin-right: 20px;
+  background: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  border-radius: 25px;
+  font-size: 24px;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#pencarian li:hover {
+  background: #fff;
+  color: var(--color-default);
+}
+
+#pencarian .pencarian-title {
+  font-size: 38px;
+  font-weight: 700;
+}
+
+#pencarian .pencarian-input input {
+  height: 67px;
+  width: 640px;
+  border-radius: 0 25px 25px 0;
+  background: rgb(217, 217, 217, 0.5);
+  font-size: 20;
+  font-weight: 400;
+}
+#pencarian .input-group-text {
+  border-radius: 25px 0 0 25px;
+  background: rgb(217, 217, 217, 0.8);
+}
+
+/* section daftar */
+#daftar h1 {
+  color: var(--color-default);
+  font-size: 38px;
+  font-weight: 700;
+}
+
+#daftar .button-popular {
+  background-color: #fff;
+  color: var(--color-default);
+  width: 138px;
+  height: 48px;
+  border-radius: 20px;
+  border: 0.5px solid #d9d9d9;
+}
+
+#daftar .card h3 {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--color-default);
+}
+
+#daftar .card {
+  border: none;
+}
+
+#daftar .card .image-barang {
+  border-radius: 10px;
+}
+
+#daftar .like img {
+  margin-right: 5px;
+}
+#daftar .like span {
+  margin-right: 10px;
+}
+
+#daftar .button-lihat {
+  width: 129px;
+  height: 50px;
+  border-radius: 15px;
+  background-color: var(--color-pink);
+  border: none;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+/* section footer */
+#footer {
+  background: url(../assets/footer.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+#footer h1 {
+  font-size: 40px;
+  font-weight: 700;
+}
+#footer p {
+  font-size: 14px;
+  font-weight: 400;
+}
+#footer h3 {
+  font-size: 14px;
+  font-weight: 500;
+}
+#footer .social-media img {
+  width: 24px;
+  height: 24px;
+}
+
+#footer .overlay {
+  background: rgba(0, 0, 0, 0.6);
+}
